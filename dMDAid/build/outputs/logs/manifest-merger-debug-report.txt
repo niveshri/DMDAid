@@ -157,87 +157,75 @@ service#com.example.restbackend.RestIntentService
 ADDED from AndroidManifest.xml:66:9
 	android:name
 		ADDED from AndroidManifest.xml:66:18
-service#com.aware.Aware
-ADDED from AndroidManifest.xml:67:13
-	android:name
-		ADDED from AndroidManifest.xml:67:22
-service#com.example.dmdaid.ESM_service
-ADDED from AndroidManifest.xml:68:13
-	android:name
-		ADDED from AndroidManifest.xml:68:22
-service#com.example.dmdaid.SMS_service
-ADDED from AndroidManifest.xml:69:13
-	android:name
-		ADDED from AndroidManifest.xml:69:22
 activity#com.example.dmdaid.MedicationList
-ADDED from AndroidManifest.xml:72:9
+ADDED from AndroidManifest.xml:70:9
 	android:label
-		ADDED from AndroidManifest.xml:74:13
+		ADDED from AndroidManifest.xml:72:13
 	android:name
-		ADDED from AndroidManifest.xml:73:13
+		ADDED from AndroidManifest.xml:71:13
 activity#com.example.dmdaid.MainActivity
-ADDED from AndroidManifest.xml:77:8
+ADDED from AndroidManifest.xml:75:8
 	android:label
-		ADDED from AndroidManifest.xml:79:10
+		ADDED from AndroidManifest.xml:77:10
 	android:name
-		ADDED from AndroidManifest.xml:78:10
+		ADDED from AndroidManifest.xml:76:10
 activity#com.example.dmdaid.DisplayContact
+ADDED from AndroidManifest.xml:85:7
+	android:label
+		ADDED from AndroidManifest.xml:85:17
+	android:noHistory
+		ADDED from AndroidManifest.xml:85:50
+	android:name
+		ADDED from AndroidManifest.xml:85:76
+activity#com.example.dmdaid.Displaystay
 ADDED from AndroidManifest.xml:87:7
 	android:label
-		ADDED from AndroidManifest.xml:87:17
+		ADDED from AndroidManifest.xml:88:9
 	android:noHistory
-		ADDED from AndroidManifest.xml:87:50
+		ADDED from AndroidManifest.xml:88:42
 	android:name
-		ADDED from AndroidManifest.xml:87:76
-activity#com.example.dmdaid.Displaystay
-ADDED from AndroidManifest.xml:89:7
-	android:label
-		ADDED from AndroidManifest.xml:90:9
-	android:noHistory
-		ADDED from AndroidManifest.xml:90:42
-	android:name
-		ADDED from AndroidManifest.xml:90:67
+		ADDED from AndroidManifest.xml:88:67
 activity#com.example.dmdaid.Contact
-ADDED from AndroidManifest.xml:94:9
+ADDED from AndroidManifest.xml:92:9
 	android:label
-		ADDED from AndroidManifest.xml:94:19
+		ADDED from AndroidManifest.xml:92:19
 	android:noHistory
-		ADDED from AndroidManifest.xml:94:52
+		ADDED from AndroidManifest.xml:92:52
 	android:name
-		ADDED from AndroidManifest.xml:94:77
+		ADDED from AndroidManifest.xml:92:77
 activity#com.example.dmdaid.Addcontact
+ADDED from AndroidManifest.xml:93:10
+	android:label
+		ADDED from AndroidManifest.xml:93:20
+	android:noHistory
+		ADDED from AndroidManifest.xml:93:53
+	android:name
+		ADDED from AndroidManifest.xml:93:78
+activity#com.example.dmdaid.DisplayPhysician
+ADDED from AndroidManifest.xml:94:10
+	android:label
+		ADDED from AndroidManifest.xml:94:20
+	android:noHistory
+		ADDED from AndroidManifest.xml:94:53
+	android:name
+		ADDED from AndroidManifest.xml:94:78
+activity#com.example.dmdaid.PhysicianContact
 ADDED from AndroidManifest.xml:95:10
 	android:label
 		ADDED from AndroidManifest.xml:95:20
 	android:noHistory
 		ADDED from AndroidManifest.xml:95:53
 	android:name
-		ADDED from AndroidManifest.xml:95:78
-activity#com.example.dmdaid.DisplayPhysician
-ADDED from AndroidManifest.xml:96:10
-	android:label
-		ADDED from AndroidManifest.xml:96:20
-	android:noHistory
-		ADDED from AndroidManifest.xml:96:53
-	android:name
-		ADDED from AndroidManifest.xml:96:78
-activity#com.example.dmdaid.PhysicianContact
-ADDED from AndroidManifest.xml:97:10
-	android:label
-		ADDED from AndroidManifest.xml:97:20
-	android:noHistory
-		ADDED from AndroidManifest.xml:97:53
-	android:name
-		ADDED from AndroidManifest.xml:97:79
+		ADDED from AndroidManifest.xml:95:79
 activity#com.example.dmdaid.NewMedication
-ADDED from AndroidManifest.xml:98:9
+ADDED from AndroidManifest.xml:96:9
 	android:label
-		ADDED from AndroidManifest.xml:100:13
+		ADDED from AndroidManifest.xml:98:13
 	android:name
-		ADDED from AndroidManifest.xml:99:13
+		ADDED from AndroidManifest.xml:97:13
 activity#com.example.dmdaid.MedicationView
-ADDED from AndroidManifest.xml:102:9
+ADDED from AndroidManifest.xml:100:9
 	android:label
-		ADDED from AndroidManifest.xml:104:13
+		ADDED from AndroidManifest.xml:102:13
 	android:name
-		ADDED from AndroidManifest.xml:103:13
+		ADDED from AndroidManifest.xml:101:13

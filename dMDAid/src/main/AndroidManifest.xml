@@ -64,7 +64,7 @@
         </activity>
 
         <service android:name="com.example.restbackend.RestIntentService" >
-           
+
         </service>
 
         <activity
