@@ -1,1 +1,1 @@
-include ':app', ':dMDAid', ':aware-core'
+include ':app', ':dMDAid'

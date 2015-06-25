@@ -64,6 +64,7 @@
         </activity>
 
         <service android:name="com.example.restbackend.RestIntentService" >
+           
         </service>
 
         <activity
@@ -100,10 +101,8 @@
             android:name="com.example.dmdaid.MedicationView"
             android:label="@string/title_activity_medication_view" >
         </activity>
-        <service android:name="com.aware.Aware"></service>
-        <service android:name="ESM_service"></service>
-        <service android:name="SMS_service"></service>
-        
+
+
         
         
         
