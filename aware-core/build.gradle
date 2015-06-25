@@ -1,0 +1,41 @@
+//Uncomment to choose how to treat the project. Use it as a library for AWARE-applications or plugins
+//apply plugin: 'com.android.application' //AWARE is an application
+apply plugin: 'com.android.library' //AWARE is a library
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
+    defaultPublishConfig "phoneRelease"
+    defaultConfig {
+       // applicationId "com.aware"
+        minSdkVersion 10 //Android 2.3.3
+        targetSdkVersion 19
+    }
+    buildTypes {
+     /*   release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            applicationIdSuffix "" //add suffix for plugins and applications (e.g., .plugin.xxx or .application.xxx)
+        } */
+    }
+    productFlavors {
+        wear {
+            minSdkVersion 20
+            targetSdkVersion 20
+        }
+        phone {
+
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/mqtt-client-0.4.0.jar')
+    compile files('libs/zbar.jar')
+    compile 'com.android.support:appcompat-v7:20.0.0'
+    compile 'com.android.support:gridlayout-v7:20.0.0'
+    phoneCompile 'com.android.support:support-v4:20.0.0'
+    wearCompile 'com.android.support:support-v13:20.0.0'
+    phoneCompile 'com.google.android.gms:play-services:6.1.11'
+    wearCompile 'com.google.android.gms:play-services-wearable:6.1.11'
+}

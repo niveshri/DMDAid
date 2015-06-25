@@ -1,0 +1,15 @@
+HI Divya 
+I will show you the steps to add stuff to the menus table. 
+This is the table that controls the UI
+Step 1: Change the dmd_data.sql file to add what you want for the UI
+Step 2: I have added contactpage in one of the fields in the sql file. It is not in the old database but we will see it added in the new database file
+Step 3: Looking at the old database: sqlite3 awareclient.db.OLD
+Step 4: TO view tables type ".tables" in the prompt
+Step 5: to query any of the tables type "select * from <tablename>"
+Step 6: We saw the first record in the menus table in the old databse was |Family Member and Primary Care Giver Information|DMDAid|custompage|FAMINFO
+Step 7: Instead of "custompage" i added contact page in that field in the dmd_data.sql file
+Step 8: Now creating the .db file from the edited dmd_data.sql file will show us the modified table
+Step 9: creating the new database "awareclient.db" from the .sql file. (make sure the file "awareclient.db" does not already exist in the directory. That is why i renaled the old file to awareclient.db.OLD).. So the command is "sqlite3 awareclient.db < dmd_data.sql"
+Step 10: repeat step 3,4,5 to confirm the edited table in the new database
+
+  

@@ -1,0 +1,1148 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:6:5
+	xmlns:tools
+		ADDED from AndroidManifest.xml:3:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:8:5
+MERGED from DmdTrial:aware-core:unspecified:8:5
+MERGED from com.android.support:appcompat-v7:20.0.0:16:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+MERGED from com.android.support:gridlayout-v7:20.0.0:16:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+MERGED from com.google.android.gms:play-services:6.1.11:15:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:12:5
+MERGED from DmdTrial:aware-core:unspecified:22:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:16:5
+MERGED from DmdTrial:aware-core:unspecified:20:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:17:5
+MERGED from DmdTrial:aware-core:unspecified:25:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#com.aware.READ_CONTEXT_DATA
+ADDED from AndroidManifest.xml:18:5
+MERGED from DmdTrial:aware-core:unspecified:54:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#com.aware.WRITE_CONTEXT_DATA
+ADDED from AndroidManifest.xml:19:5
+MERGED from DmdTrial:aware-core:unspecified:55:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+application
+ADDED from AndroidManifest.xml:22:5
+MERGED from DmdTrial:aware-core:unspecified:57:5
+REJECTED from com.android.support:appcompat-v7:20.0.0:17:5
+REJECTED from com.android.support:support-v4:20.0.0:17:5
+REJECTED from com.android.support:gridlayout-v7:20.0.0:17:5
+REJECTED from com.android.support:support-v4:20.0.0:17:5
+REJECTED from com.android.support:support-v4:20.0.0:17:5
+REJECTED from com.google.android.gms:play-services:6.1.11:16:5
+REJECTED from com.android.support:support-v4:20.0.0:17:5
+	tools:node
+		ADDED from DmdTrial:aware-core:unspecified:61:9
+	android:label
+		ADDED from AndroidManifest.xml:25:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:23:9
+	android:icon
+		ADDED from AndroidManifest.xml:24:9
+	android:theme
+		ADDED from AndroidManifest.xml:26:9
+		REJECTED from DmdTrial:aware-core:unspecified:60:9
+	tools:replace
+		ADDED from AndroidManifest.xml:27:9
+activity#com.example.dmdaid.MenuList
+ADDED from AndroidManifest.xml:29:9
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+activity#com.example.dmdaid.Link
+ADDED from AndroidManifest.xml:33:11
+	android:label
+		ADDED from AndroidManifest.xml:33:21
+	android:name
+		ADDED from AndroidManifest.xml:33:54
+activity#com.example.dmdaid.Hospital
+ADDED from AndroidManifest.xml:34:11
+	android:label
+		ADDED from AndroidManifest.xml:34:21
+	android:name
+		ADDED from AndroidManifest.xml:34:54
+activity#com.example.dmdaid.HospitalView
+ADDED from AndroidManifest.xml:35:12
+	android:label
+		ADDED from AndroidManifest.xml:35:22
+	android:name
+		ADDED from AndroidManifest.xml:35:55
+activity#com.example.dmdaid.HospitalList
+ADDED from AndroidManifest.xml:36:12
+	android:label
+		ADDED from AndroidManifest.xml:36:22
+	android:name
+		ADDED from AndroidManifest.xml:36:55
+activity#com.example.dmdaid.Stay
+ADDED from AndroidManifest.xml:37:12
+	android:label
+		ADDED from AndroidManifest.xml:37:22
+	android:noHistory
+		ADDED from AndroidManifest.xml:37:55
+	android:name
+		ADDED from AndroidManifest.xml:37:80
+activity#com.example.dmdaid.Homecare
+ADDED from AndroidManifest.xml:38:12
+	android:label
+		ADDED from AndroidManifest.xml:38:22
+	android:noHistory
+		ADDED from AndroidManifest.xml:38:55
+	android:name
+		ADDED from AndroidManifest.xml:38:80
+activity#com.example.dmdaid.DisplayCare
+ADDED from AndroidManifest.xml:39:12
+	android:label
+		ADDED from AndroidManifest.xml:39:22
+	android:noHistory
+		ADDED from AndroidManifest.xml:39:55
+	android:name
+		ADDED from AndroidManifest.xml:39:80
+activity#com.example.reports.ReportDisplay
+ADDED from AndroidManifest.xml:42:9
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+activity#com.example.reports.FullScreenViewActivity
+ADDED from AndroidManifest.xml:46:9
+	android:label
+		ADDED from AndroidManifest.xml:49:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:48:13
+	android:theme
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:47:13
+activity#com.example.reports.ReportList
+ADDED from AndroidManifest.xml:52:9
+	android:label
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+activity#com.example.dmdaid.LoginActivity
+ADDED from AndroidManifest.xml:56:9
+	android:label
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:59:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:60:17
+	android:name
+		ADDED from AndroidManifest.xml:60:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:62:27
+service#com.example.restbackend.RestIntentService
+ADDED from AndroidManifest.xml:66:9
+	android:name
+		ADDED from AndroidManifest.xml:66:18
+activity#com.example.dmdaid.MedicationList
+ADDED from AndroidManifest.xml:69:9
+	android:label
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+activity#com.example.dmdaid.MainActivity
+ADDED from AndroidManifest.xml:74:8
+	android:label
+		ADDED from AndroidManifest.xml:76:10
+	android:name
+		ADDED from AndroidManifest.xml:75:10
+activity#com.example.dmdaid.DisplayContact
+ADDED from AndroidManifest.xml:84:7
+	android:label
+		ADDED from AndroidManifest.xml:84:17
+	android:noHistory
+		ADDED from AndroidManifest.xml:84:50
+	android:name
+		ADDED from AndroidManifest.xml:84:76
+activity#com.example.dmdaid.Displaystay
+ADDED from AndroidManifest.xml:86:7
+	android:label
+		ADDED from AndroidManifest.xml:87:9
+	android:noHistory
+		ADDED from AndroidManifest.xml:87:42
+	android:name
+		ADDED from AndroidManifest.xml:87:67
+activity#com.example.dmdaid.Contact
+ADDED from AndroidManifest.xml:91:9
+	android:label
+		ADDED from AndroidManifest.xml:91:19
+	android:noHistory
+		ADDED from AndroidManifest.xml:91:52
+	android:name
+		ADDED from AndroidManifest.xml:91:77
+activity#com.example.dmdaid.Addcontact
+ADDED from AndroidManifest.xml:92:10
+	android:label
+		ADDED from AndroidManifest.xml:92:20
+	android:noHistory
+		ADDED from AndroidManifest.xml:92:53
+	android:name
+		ADDED from AndroidManifest.xml:92:78
+activity#com.example.dmdaid.DisplayPhysician
+ADDED from AndroidManifest.xml:93:10
+	android:label
+		ADDED from AndroidManifest.xml:93:20
+	android:noHistory
+		ADDED from AndroidManifest.xml:93:53
+	android:name
+		ADDED from AndroidManifest.xml:93:78
+activity#com.example.dmdaid.PhysicianContact
+ADDED from AndroidManifest.xml:94:10
+	android:label
+		ADDED from AndroidManifest.xml:94:20
+	android:noHistory
+		ADDED from AndroidManifest.xml:94:53
+	android:name
+		ADDED from AndroidManifest.xml:94:79
+activity#com.example.dmdaid.NewMedication
+ADDED from AndroidManifest.xml:95:9
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#com.example.dmdaid.MedicationView
+ADDED from AndroidManifest.xml:99:9
+	android:label
+		ADDED from AndroidManifest.xml:101:13
+	android:name
+		ADDED from AndroidManifest.xml:100:13
+service#com.aware.Aware
+ADDED from AndroidManifest.xml:103:9
+MERGED from DmdTrial:aware-core:unspecified:139:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:141:13
+	android:name
+		ADDED from AndroidManifest.xml:103:18
+service#com.example.dmdaid.ESM_service
+ADDED from AndroidManifest.xml:104:9
+	android:name
+		ADDED from AndroidManifest.xml:104:18
+service#com.example.dmdaid.SMS_service
+ADDED from AndroidManifest.xml:105:9
+	android:name
+		ADDED from AndroidManifest.xml:105:18
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from DmdTrial:aware-core:unspecified:12:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:12:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from DmdTrial:aware-core:unspecified:13:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:13:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from DmdTrial:aware-core:unspecified:14:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:14:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from DmdTrial:aware-core:unspecified:15:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:15:22
+uses-permission#android.permission.BLUETOOTH
+ADDED from DmdTrial:aware-core:unspecified:16:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:16:22
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from DmdTrial:aware-core:unspecified:17:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:17:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from DmdTrial:aware-core:unspecified:18:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:18:22
+uses-permission#android.permission.GET_TASKS
+ADDED from DmdTrial:aware-core:unspecified:19:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:19:22
+uses-permission#android.permission.READ_SMS
+ADDED from DmdTrial:aware-core:unspecified:21:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:21:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from DmdTrial:aware-core:unspecified:23:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:23:22
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from DmdTrial:aware-core:unspecified:24:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:24:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from DmdTrial:aware-core:unspecified:26:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:26:22
+uses-permission#android.permission.VIBRATE
+ADDED from DmdTrial:aware-core:unspecified:27:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:27:22
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from DmdTrial:aware-core:unspecified:28:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:28:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from DmdTrial:aware-core:unspecified:29:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:29:22
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from DmdTrial:aware-core:unspecified:30:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:30:22
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from DmdTrial:aware-core:unspecified:31:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:31:22
+uses-permission#android.permission.CAMERA
+ADDED from DmdTrial:aware-core:unspecified:32:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:32:22
+uses-feature#android.hardware.camera
+ADDED from DmdTrial:aware-core:unspecified:34:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:34:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from DmdTrial:aware-core:unspecified:35:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:35:19
+uses-feature#android.hardware.type.watch
+ADDED from DmdTrial:aware-core:unspecified:37:5
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:37:19
+permission#com.aware.READ_CONTEXT_DATA
+ADDED from DmdTrial:aware-core:unspecified:39:5
+	android:label
+		ADDED from DmdTrial:aware-core:unspecified:43:9
+	android:protectionLevel
+		ADDED from DmdTrial:aware-core:unspecified:44:9
+	android:icon
+		ADDED from DmdTrial:aware-core:unspecified:42:9
+	android:description
+		ADDED from DmdTrial:aware-core:unspecified:41:9
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:40:9
+permission#com.aware.WRITE_CONTEXT_DATA
+ADDED from DmdTrial:aware-core:unspecified:46:5
+	android:label
+		ADDED from DmdTrial:aware-core:unspecified:50:9
+	android:protectionLevel
+		ADDED from DmdTrial:aware-core:unspecified:51:9
+	android:icon
+		ADDED from DmdTrial:aware-core:unspecified:49:9
+	android:description
+		ADDED from DmdTrial:aware-core:unspecified:48:9
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:47:9
+meta-data#com.google.android.gms.version
+ADDED from DmdTrial:aware-core:unspecified:65:9
+	android:value
+		ADDED from DmdTrial:aware-core:unspecified:67:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:66:13
+activity#com.aware.Aware_Preferences
+ADDED from DmdTrial:aware-core:unspecified:71:9
+	android:enabled
+		ADDED from DmdTrial:aware-core:unspecified:74:13
+	android:label
+		ADDED from DmdTrial:aware-core:unspecified:77:13
+	android:parentActivityName
+		ADDED from DmdTrial:aware-core:unspecified:78:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:75:13
+	android:configChanges
+		ADDED from DmdTrial:aware-core:unspecified:73:13
+	android:icon
+		ADDED from DmdTrial:aware-core:unspecified:76:13
+	android:theme
+		ADDED from DmdTrial:aware-core:unspecified:79:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:72:13
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from DmdTrial:aware-core:unspecified:86:13
+	android:value
+		ADDED from DmdTrial:aware-core:unspecified:88:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:87:17
+activity#com.aware.ui.Stream_UI
+ADDED from DmdTrial:aware-core:unspecified:90:9
+	android:enabled
+		ADDED from DmdTrial:aware-core:unspecified:92:13
+	android:label
+		ADDED from DmdTrial:aware-core:unspecified:95:13
+	android:launchMode
+		ADDED from DmdTrial:aware-core:unspecified:96:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:93:13
+	android:noHistory
+		ADDED from DmdTrial:aware-core:unspecified:97:13
+	android:icon
+		ADDED from DmdTrial:aware-core:unspecified:94:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:91:13
+intent-filter#android.intent.action.ASSIST+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from DmdTrial:aware-core:unspecified:98:13
+action#android.intent.action.ASSIST
+ADDED from DmdTrial:aware-core:unspecified:99:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:99:25
+category#android.intent.category.DEFAULT
+ADDED from DmdTrial:aware-core:unspecified:101:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:101:27
+meta-data#com.android.systemui.action_assist_icon
+ADDED from DmdTrial:aware-core:unspecified:105:13
+	android:resource
+		ADDED from DmdTrial:aware-core:unspecified:107:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:106:17
+activity#com.aware.ui.CameraStudy
+ADDED from DmdTrial:aware-core:unspecified:109:9
+	android:enabled
+		ADDED from DmdTrial:aware-core:unspecified:112:13
+	android:configChanges
+		ADDED from DmdTrial:aware-core:unspecified:111:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:110:13
+activity#com.aware.ui.Plugins_Manager
+ADDED from DmdTrial:aware-core:unspecified:114:9
+	android:enabled
+		ADDED from DmdTrial:aware-core:unspecified:117:13
+	android:label
+		ADDED from DmdTrial:aware-core:unspecified:120:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:118:13
+	android:configChanges
+		ADDED from DmdTrial:aware-core:unspecified:116:13
+	android:icon
+		ADDED from DmdTrial:aware-core:unspecified:119:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:115:13
+activity#com.aware.ui.ESM_Queue
+ADDED from DmdTrial:aware-core:unspecified:122:9
+	android:clearTaskOnLaunch
+		ADDED from DmdTrial:aware-core:unspecified:124:13
+	android:excludeFromRecents
+		ADDED from DmdTrial:aware-core:unspecified:126:13
+	android:launchMode
+		ADDED from DmdTrial:aware-core:unspecified:128:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:127:13
+	android:noHistory
+		ADDED from DmdTrial:aware-core:unspecified:129:13
+	android:configChanges
+		ADDED from DmdTrial:aware-core:unspecified:125:13
+	android:showOnLockScreen
+		ADDED from DmdTrial:aware-core:unspecified:130:13
+	android:theme
+		ADDED from DmdTrial:aware-core:unspecified:131:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:123:13
+service#com.aware.Keyboard
+ADDED from DmdTrial:aware-core:unspecified:136:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:138:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:137:13
+service#com.aware.Applications
+ADDED from DmdTrial:aware-core:unspecified:143:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:145:13
+	android:permission
+		ADDED from DmdTrial:aware-core:unspecified:146:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:144:13
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from DmdTrial:aware-core:unspecified:147:13
+action#android.accessibilityservice.AccessibilityService
+ADDED from DmdTrial:aware-core:unspecified:148:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:148:25
+meta-data#android.accessibilityservice
+ADDED from DmdTrial:aware-core:unspecified:151:13
+	android:resource
+		ADDED from DmdTrial:aware-core:unspecified:153:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:152:17
+service#com.aware.Applications$BackgroundService
+ADDED from DmdTrial:aware-core:unspecified:155:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:157:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:156:13
+service#com.aware.Locations
+ADDED from DmdTrial:aware-core:unspecified:159:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:161:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:160:13
+service#com.aware.Bluetooth
+ADDED from DmdTrial:aware-core:unspecified:163:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:165:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:164:13
+service#com.aware.Screen
+ADDED from DmdTrial:aware-core:unspecified:167:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:169:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:168:13
+service#com.aware.Battery
+ADDED from DmdTrial:aware-core:unspecified:171:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:173:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:172:13
+service#com.aware.Network
+ADDED from DmdTrial:aware-core:unspecified:175:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:177:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:176:13
+service#com.aware.Communication
+ADDED from DmdTrial:aware-core:unspecified:179:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:181:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:180:13
+service#com.aware.Processor
+ADDED from DmdTrial:aware-core:unspecified:183:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:185:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:184:13
+service#com.aware.TimeZone
+ADDED from DmdTrial:aware-core:unspecified:187:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:189:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:188:13
+service#com.aware.Mqtt
+ADDED from DmdTrial:aware-core:unspecified:191:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:193:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:192:13
+service#com.aware.Traffic
+ADDED from DmdTrial:aware-core:unspecified:195:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:197:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:196:13
+service#com.aware.Accelerometer
+ADDED from DmdTrial:aware-core:unspecified:199:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:201:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:200:13
+service#com.aware.Gyroscope
+ADDED from DmdTrial:aware-core:unspecified:203:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:205:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:204:13
+service#com.aware.Bluetooth$BackgroundService
+ADDED from DmdTrial:aware-core:unspecified:207:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:209:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:208:13
+service#com.aware.WiFi
+ADDED from DmdTrial:aware-core:unspecified:211:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:213:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:212:13
+service#com.aware.WiFi$BackgroundService
+ADDED from DmdTrial:aware-core:unspecified:215:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:217:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:216:13
+service#com.aware.Telephony
+ADDED from DmdTrial:aware-core:unspecified:219:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:221:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:220:13
+service#com.aware.Rotation
+ADDED from DmdTrial:aware-core:unspecified:223:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:225:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:224:13
+service#com.aware.Light
+ADDED from DmdTrial:aware-core:unspecified:227:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:229:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:228:13
+service#com.aware.Proximity
+ADDED from DmdTrial:aware-core:unspecified:231:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:233:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:232:13
+service#com.aware.Magnetometer
+ADDED from DmdTrial:aware-core:unspecified:235:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:237:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:236:13
+service#com.aware.Barometer
+ADDED from DmdTrial:aware-core:unspecified:239:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:241:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:240:13
+service#com.aware.Gravity
+ADDED from DmdTrial:aware-core:unspecified:243:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:245:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:244:13
+service#com.aware.LinearAccelerometer
+ADDED from DmdTrial:aware-core:unspecified:247:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:249:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:248:13
+service#com.aware.Temperature
+ADDED from DmdTrial:aware-core:unspecified:251:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:253:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:252:13
+service#com.aware.ESM
+ADDED from DmdTrial:aware-core:unspecified:255:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:257:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:256:13
+service#com.aware.ESM$BackgroundService
+ADDED from DmdTrial:aware-core:unspecified:259:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:261:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:260:13
+service#com.aware.Installations
+ADDED from DmdTrial:aware-core:unspecified:263:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:265:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:264:13
+service#com.aware.utils.WebserviceHelper
+ADDED from DmdTrial:aware-core:unspecified:267:9
+	android:enabled
+		ADDED from DmdTrial:aware-core:unspecified:269:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:270:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:268:13
+intent-filter#ACTION_AWARE_WEBSERVICE_CLEAR_TABLE+ACTION_AWARE_WEBSERVICE_SYNC_TABLE
+ADDED from DmdTrial:aware-core:unspecified:271:13
+action#ACTION_AWARE_WEBSERVICE_SYNC_TABLE
+ADDED from DmdTrial:aware-core:unspecified:272:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:272:25
+action#ACTION_AWARE_WEBSERVICE_CLEAR_TABLE
+ADDED from DmdTrial:aware-core:unspecified:273:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:273:25
+service#com.aware.Aware_Preferences$StudyConfig
+ADDED from DmdTrial:aware-core:unspecified:276:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:278:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:277:13
+service#com.aware.Aware$UpdateFrameworkService
+ADDED from DmdTrial:aware-core:unspecified:279:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:281:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:280:13
+service#com.aware.Aware$DownloadPluginService
+ADDED from DmdTrial:aware-core:unspecified:282:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:284:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:283:13
+service#com.aware.Wear_Sync
+ADDED from DmdTrial:aware-core:unspecified:285:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:287:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:286:13
+service#com.aware.Wear_Sync$WearListener
+ADDED from DmdTrial:aware-core:unspecified:288:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:290:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:289:13
+intent-filter#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from DmdTrial:aware-core:unspecified:291:13
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from DmdTrial:aware-core:unspecified:292:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:292:25
+receiver#com.aware.Aware$Aware_Broadcaster
+ADDED from DmdTrial:aware-core:unspecified:298:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:300:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:299:13
+intent-filter#ACTION_AWARE_CLEAR_DATA+ACTION_AWARE_CONFIGURATION+ACTION_AWARE_REFRESH+ACTION_AWARE_SYNC_DATA
+ADDED from DmdTrial:aware-core:unspecified:301:13
+action#ACTION_AWARE_SYNC_DATA
+ADDED from DmdTrial:aware-core:unspecified:302:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:302:25
+action#ACTION_AWARE_CLEAR_DATA
+ADDED from DmdTrial:aware-core:unspecified:303:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:303:25
+action#ACTION_AWARE_CONFIGURATION
+ADDED from DmdTrial:aware-core:unspecified:304:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:304:25
+action#ACTION_AWARE_REFRESH
+ADDED from DmdTrial:aware-core:unspecified:305:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:305:25
+receiver#com.aware.Aware$PluginMonitor
+ADDED from DmdTrial:aware-core:unspecified:308:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:310:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:309:13
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from DmdTrial:aware-core:unspecified:311:13
+action#android.intent.action.PACKAGE_ADDED
+ADDED from DmdTrial:aware-core:unspecified:312:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:312:25
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from DmdTrial:aware-core:unspecified:313:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:313:25
+data
+ADDED from DmdTrial:aware-core:unspecified:315:17
+	android:scheme
+		ADDED from DmdTrial:aware-core:unspecified:315:23
+receiver#com.aware.Wear_Sync$AWAREListener
+ADDED from DmdTrial:aware-core:unspecified:318:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:320:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:319:13
+intent-filter#ACTION_AWARE_CONFIG_CHANGED
+ADDED from DmdTrial:aware-core:unspecified:321:13
+action#ACTION_AWARE_CONFIG_CHANGED
+ADDED from DmdTrial:aware-core:unspecified:322:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:322:25
+receiver#com.aware.Aware$Storage_Broadcaster
+ADDED from DmdTrial:aware-core:unspecified:325:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:327:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:326:13
+intent-filter#android.intent.action.MEDIA_MOUNTED+android.intent.action.MEDIA_UNMOUNTED
+ADDED from DmdTrial:aware-core:unspecified:328:13
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from DmdTrial:aware-core:unspecified:329:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:329:25
+action#android.intent.action.MEDIA_UNMOUNTED
+ADDED from DmdTrial:aware-core:unspecified:330:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:330:25
+receiver#com.aware.Mqtt$MQTTReceiver
+ADDED from DmdTrial:aware-core:unspecified:335:9
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:337:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:336:13
+intent-filter#ACTION_AWARE_MQTT_MSG_PUBLISH+ACTION_AWARE_MQTT_TOPIC_SUBSCRIBE+ACTION_AWARE_MQTT_TOPIC_UNSUBSCRIBE
+ADDED from DmdTrial:aware-core:unspecified:338:13
+action#ACTION_AWARE_MQTT_TOPIC_SUBSCRIBE
+ADDED from DmdTrial:aware-core:unspecified:339:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:339:25
+action#ACTION_AWARE_MQTT_TOPIC_UNSUBSCRIBE
+ADDED from DmdTrial:aware-core:unspecified:340:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:340:25
+action#ACTION_AWARE_MQTT_MSG_PUBLISH
+ADDED from DmdTrial:aware-core:unspecified:341:17
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:341:25
+provider#com.aware.providers.Bluetooth_Provider
+ADDED from DmdTrial:aware-core:unspecified:350:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:354:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:352:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:353:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:351:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:355:13
+provider#com.aware.providers.Applications_Provider
+ADDED from DmdTrial:aware-core:unspecified:357:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:361:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:359:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:360:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:358:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:362:13
+provider#com.aware.providers.Locations_Provider
+ADDED from DmdTrial:aware-core:unspecified:364:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:368:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:366:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:367:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:365:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:369:13
+provider#com.aware.providers.Installations_Provider
+ADDED from DmdTrial:aware-core:unspecified:371:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:375:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:373:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:374:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:372:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:376:13
+provider#com.aware.providers.ESM_Provider
+ADDED from DmdTrial:aware-core:unspecified:378:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:382:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:380:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:381:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:379:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:383:13
+provider#com.aware.providers.Temperature_Provider
+ADDED from DmdTrial:aware-core:unspecified:385:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:389:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:387:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:388:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:386:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:390:13
+provider#com.aware.providers.Linear_Accelerometer_Provider
+ADDED from DmdTrial:aware-core:unspecified:392:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:396:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:394:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:395:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:393:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:397:13
+provider#com.aware.providers.Gravity_Provider
+ADDED from DmdTrial:aware-core:unspecified:399:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:403:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:401:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:402:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:400:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:404:13
+provider#com.aware.providers.Barometer_Provider
+ADDED from DmdTrial:aware-core:unspecified:406:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:410:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:408:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:409:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:407:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:411:13
+provider#com.aware.providers.Magnetometer_Provider
+ADDED from DmdTrial:aware-core:unspecified:413:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:417:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:415:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:416:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:414:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:418:13
+provider#com.aware.providers.Proximity_Provider
+ADDED from DmdTrial:aware-core:unspecified:420:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:424:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:422:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:423:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:421:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:425:13
+provider#com.aware.providers.Light_Provider
+ADDED from DmdTrial:aware-core:unspecified:427:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:431:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:429:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:430:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:428:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:432:13
+provider#com.aware.providers.Telephony_Provider
+ADDED from DmdTrial:aware-core:unspecified:434:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:438:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:436:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:437:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:435:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:439:13
+provider#com.aware.providers.Aware_Provider
+ADDED from DmdTrial:aware-core:unspecified:441:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:445:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:443:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:444:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:442:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:446:13
+provider#com.aware.providers.Rotation_Provider
+ADDED from DmdTrial:aware-core:unspecified:448:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:452:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:450:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:451:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:449:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:453:13
+provider#com.aware.providers.WiFi_Provider
+ADDED from DmdTrial:aware-core:unspecified:455:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:459:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:457:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:458:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:456:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:460:13
+provider#com.aware.providers.Accelerometer_Provider
+ADDED from DmdTrial:aware-core:unspecified:462:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:466:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:464:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:465:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:463:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:467:13
+provider#com.aware.providers.Gyroscope_Provider
+ADDED from DmdTrial:aware-core:unspecified:469:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:473:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:471:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:472:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:470:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:474:13
+provider#com.aware.providers.Traffic_Provider
+ADDED from DmdTrial:aware-core:unspecified:476:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:480:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:478:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:479:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:477:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:481:13
+provider#com.aware.providers.Mqtt_Provider
+ADDED from DmdTrial:aware-core:unspecified:483:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:487:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:485:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:486:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:484:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:488:13
+provider#com.aware.providers.Processor_Provider
+ADDED from DmdTrial:aware-core:unspecified:490:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:494:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:492:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:493:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:491:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:495:13
+provider#com.aware.providers.TimeZone_Provider
+ADDED from DmdTrial:aware-core:unspecified:497:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:501:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:499:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:500:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:498:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:502:13
+provider#com.aware.providers.Battery_Provider
+ADDED from DmdTrial:aware-core:unspecified:504:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:508:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:506:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:507:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:505:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:509:13
+provider#com.aware.providers.Screen_Provider
+ADDED from DmdTrial:aware-core:unspecified:511:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:515:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:513:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:514:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:512:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:516:13
+provider#com.aware.providers.Network_Provider
+ADDED from DmdTrial:aware-core:unspecified:518:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:522:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:520:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:521:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:519:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:523:13
+provider#com.aware.providers.Communication_Provider
+ADDED from DmdTrial:aware-core:unspecified:525:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:529:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:527:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:528:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:526:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:530:13
+provider#com.aware.providers.Keyboard_Provider
+ADDED from DmdTrial:aware-core:unspecified:532:9
+	android:readPermission
+		ADDED from DmdTrial:aware-core:unspecified:536:13
+	android:authorities
+		ADDED from DmdTrial:aware-core:unspecified:534:13
+	android:exported
+		ADDED from DmdTrial:aware-core:unspecified:535:13
+	android:name
+		ADDED from DmdTrial:aware-core:unspecified:533:13
+	android:writePermission
+		ADDED from DmdTrial:aware-core:unspecified:537:13
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from AndroidManifest.xml:2:1 reason: com.aware requested WRITE_EXTERNAL_STORAGE

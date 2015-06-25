@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DMDAid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_details1">Details1</string>
+    <string name="title_activity_upload_record">UploadRecord</string>
+    <string name="add_image">Add Image</string>
+    <string name="title_activity_full_screen_view">FullScreenViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_report_list">Reports</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_medications">Medications</string>
+    <string name="title_activity_new_medication">New Medication</string>
+    <string name="your_link_will_be_displayed_here"><a ref="http://somesite.com/">Click me!</a></string>
+    <string name="txtCredits"><a href="http://epiwork.hcii.cs.cmu.edu/dmd_us_familyguide_june2010.pdf">Parental Care</a></string>
+    <string name="link"><a href="http://epiwork.hcii.cs.cmu.edu/dmd_us_familyguide_june2010.pdf">Diagnosis and Management of Duchenne Muscular Dystrophy</a></string>
+    <string name="links"><a href="http://epiwork.hcii.cs.cmu.edu/DMD%20Fact%20Sheet.pdf">DMD Fact sheet</a></string>
+    <string name="linke"><a href="http://epiwork.hcii.cs.cmu.edu/Family_Guide.pdf">Family Guide</a></string>
+     <string name="linked"><a href="http://epiwork.hcii.cs.cmu.edu/120409Lancet_Neuro_online_combo.pdf">Neuro Online Combo</a></string>
+    
+    
+    <string name="stay_log">Hospital Stay Log</string>
+    <string name="day">Day</string>
+    <string name="reason">Reason</string>
+    <string name="Name_of_Hospital">Name of the hospital</string>
+    <string name="Name_of_the_physician">Name of the Physician</string>
+    <string name="Vital">Vital</string>
+    <string name="Date">Date</string>
+    <string name="careplan">Care plan</string>
+    <string name="relation">Relationship</string>
+    
+    <string name="no_notes">Sorry, no contacts</string>
+    <string name="menu_insert">Insert new contact</string>
+    <string name="menu_delete">Delete contact</string>
+ 
+    <string name="label_name">Name</string>
+    <string name="label_address">Address</string>
+
+    <string-array name="units">
+        <item>mg</item>
+        <item>ml</item>
+        <item>units</item>
+        <item>puffs</item>
+        <item>tablets</item>
+        <item>mg/kg</item>
+    </string-array>
+    <string-array name="timesper">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>PRN</item>
+    </string-array>
+    
+    
+   <string name="Add_New">Add New</string>
+   <string name="edit">Edit Contact</string>
+   <string name="editphy">Edit Physician</string>
+   
+   <string name="delete">Delete Contact</string>
+   <string name="deletecare">Delete</string>
+   <string name="editcare">Edit</string>
+   <string name="deletephy">Delete Physician</string>
+   <string name="title_activity_display_contact">DisplayContact</string>
+   <string name="title_activity_display_stay">Displaystay</string>
+   <string name="title_activity_display_physician">DisplayPhysician</string>
+
+   <string name="name">Name</string>
+   <string name="phone">Phone</string>
+   <string name="email">Email</string>
+   <string name="street">Street</string>
+   <string name="country">City/State/Zip</string>
+
+   <string name="save">Save Contact</string>
+
+   <string name="deleteContact">Are you sure, you want to delete it.</string>
+   
+   <string name="yes">Yes</string>
+   <string name="no">No</string>
+
+    <string name="title_activity_medication_view">Medication Record</string>
+
+</resources>

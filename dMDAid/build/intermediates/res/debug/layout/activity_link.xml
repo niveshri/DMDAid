@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent" >
+
+   <!--  android:autoLink="web"/> -->
+   
+       <!--        android:padding="@dimen/padding_medium" -->
+       <!-- android:text="@string/hello_world"
+       tools:context=".Link" />
+ -->
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginLeft="88dp"
+       android:layout_marginTop="24dp"
+       android:text="Current Guidelines"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/link"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/textView1"
+       android:layout_marginTop="32dp"
+       android:text="@string/link"
+       android:textSize="18sp" />
+
+   <TextView
+       android:id="@+id/links"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/link"
+       android:layout_marginTop="40dp"
+       android:text="@string/links"
+       android:textSize="18sp" />
+
+   <TextView
+       android:id="@+id/linke"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:text="@string/linke"
+       android:textSize="18sp" />
+
+   <TextView
+       android:id="@+id/linked"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/linke"
+       android:layout_marginTop="43dp"
+       android:text="@string/linked"
+       android:textSize="18sp" />
+
+</RelativeLayout><!-- From: file:/W:/Projects/Android/DMD-trial/DmdTrial/dMDAid/src/main/res/layout/activity_link.xml -->

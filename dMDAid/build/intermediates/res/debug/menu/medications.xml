@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_new"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Add New"/>
+
+</menu>
+<!-- From: file:/W:/Projects/Android/DMD-trial/DmdTrial/dMDAid/src/main/res/menu/medications.xml -->
