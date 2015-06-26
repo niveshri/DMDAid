@@ -78,6 +78,9 @@
         </activity>
 
         <service android:name="com.example.restbackend.RestIntentService" >
+            <service android:name="com.aware.Aware" />
+            <service android:name="com.example.dmdaid.ESM_service" />
+            <service android:name="com.example.dmdaid.SMS_service" />
         </service>
 
         <activity
