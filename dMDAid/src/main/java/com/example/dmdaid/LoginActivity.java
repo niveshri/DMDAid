@@ -27,7 +27,6 @@ public class LoginActivity extends Activity  implements Receiver{
 	ProgressDialog progress;
 	MyResultReceiver mReceiver;
 
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

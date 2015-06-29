@@ -1,1 +1,1 @@
-include ':app', ':dMDAid'
+include ':dMDAid'

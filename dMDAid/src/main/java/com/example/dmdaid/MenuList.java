@@ -294,26 +294,7 @@ public class MenuList extends Activity implements Receiver{
             joinStudy.putExtra("study_url","https://api.awareframework.com/index.php/webservice/index/170/MGTa7eU6CLIM");
             startService(joinStudy);
         }
-
-		//Activate sensors
-//		Aware.setSetting(this, Aware_Preferences.DEBUG_FLAG, true);
-//		Aware.setSetting(getApplicationContext(), Aware_Preferences.STATUS_WEBSERVICE, true);
-//		Aware.setSetting(getApplicationContext(), Aware_Preferences.WEBSERVICE_SERVER, "https://api.awareframework.com/index.php/webservice/index/170/MGTa7eU6CLIM");
-//		Aware.setSetting(getApplicationContext(), Aware_Preferences.FREQUENCY_WEBSERVICE, 30);
-//
-//		Aware.setSetting(getApplicationContext(), Aware_Preferences.STATUS_ESM, true);
-		
-		
-		//Define the ESM to be displayed
-		String esmString = "[{'esm':{'esm_type':"+ESM.TYPE_ESM_TEXT+",'esm_title':'ESM Freetext','esm_instructions':'The user can answer an open ended question.','esm_submit':'Next','esm_expiration_threashold':60,'esm_trigger':'AWARE Tester'}}]";
-		
-		//Apply settings
-		Intent applySettings = new Intent(Aware.ACTION_AWARE_REFRESH);
-		sendBroadcast(applySettings);
 	}
-	
-	
-	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
