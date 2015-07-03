@@ -38,7 +38,8 @@
         android:layout_alignRight="@+id/textView1"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="31dp"
-        android:text="Login" />
+        android:text="Login"
+        android:onClick="LoginAction"/>
 
     <EditText
         android:id="@+id/editText2"
@@ -51,4 +52,4 @@
         android:inputType="textPassword" />
 
 </RelativeLayout>
-<!-- From: file:/Users/denzil/AndroidStudioProjects/DmdTrial/dMDAid/src/main/res/layout/activity_login.xml -->
+<!-- From: file:/W:/Projects/Android/DMDtrial/DmdTrial/dMDAid/src/main/res/layout/activity_login.xml -->

@@ -1,10 +1,12 @@
 package com.example.dmdaid;
 import android.app.Activity;
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.view.View;
 import android.widget.TextView;
 
  
@@ -27,9 +29,12 @@ public class Contact extends Activity {
 
         fetchContacts();
     }
-    
 
 
+    public void DisplayContacts(View v) {
+        Intent launchActivity1= new Intent(this,Addcontact.class);
+        startActivity(launchActivity1);
+    }
  
 
     public void fetchContacts() {

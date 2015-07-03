@@ -31,13 +31,14 @@ public class LoginActivity extends Activity  implements Receiver{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
-		userNameEditText = (EditText)findViewById(R.id.editText1);
-		passwordEditText = (EditText)findViewById(R.id.editText2);
-		button = (Button)findViewById(R.id.button1);
+		userNameEditText = (EditText) findViewById(R.id.editText1);
+		passwordEditText = (EditText) findViewById(R.id.editText2);
+		button = (Button) findViewById(R.id.button1);
 		mReceiver = new MyResultReceiver(new Handler());
 		mReceiver.setReceiver(this);
+	}
 
-		progress = new ProgressDialog(this);
+	/*	progress = new ProgressDialog(this);
 		progress.setTitle("Logging in");
 		progress.setMessage("Verifying Credentials");
 
@@ -86,7 +87,7 @@ public class LoginActivity extends Activity  implements Receiver{
 			progress.show();
 
 		}
-	}
+	}*/
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -115,7 +116,61 @@ public class LoginActivity extends Activity  implements Receiver{
 
 	}
 
+	public void LoginAction(View v){
+		//userNameEditText = (EditText)findViewById(R.id.editText1);
+		//passwordEditText = (EditText)findViewById(R.id.editText2);
+		//button = (Button)findViewById(R.id.button1);
+		//mReceiver = new MyResultReceiver(new Handler());
+		//mReceiver.setReceiver(this);
+
+		progress = new ProgressDialog(this);
+		progress.setTitle("Logging in");
+		progress.setMessage("Verifying Credentials");
 
 
+		button.setOnClickListener(new OnClickListener() {
 
+			@Override
+			public void onClick(View v) {
+
+				if(userNameEditText.getText().equals("") ||
+						passwordEditText.getText().equals("")){
+					Log.d(Utils.TAG, "The user name or pass is blank");
+					return;
+				}
+
+				Intent intent = new Intent(getApplicationContext(), RestIntentService.class);
+
+				intent.putExtra("username", userNameEditText.getText().toString());
+				intent.putExtra("password", passwordEditText.getText().toString());
+				intent.putExtra(Utils.ACTION_TAG,"login" );
+				intent.putExtra(Utils.RECEIVER_TAG, mReceiver);
+
+				startService(intent);
+				progress.show();
+			}
+		});
+
+
+		SharedPreferences prefs = getPreferences(MODE_PRIVATE);
+		String username = prefs.getString("username", null);
+		if(username != null)
+			userNameEditText.setText(username);
+		String password = prefs.getString("password", null);
+		if(password != null)
+			passwordEditText.setText(password);
+
+		if(username != null && password != null) {
+			Intent intent = new Intent(getApplicationContext(), RestIntentService.class);
+
+			intent.putExtra("username", username);
+			intent.putExtra("password", password);
+			intent.putExtra(Utils.ACTION_TAG,"login" );
+			intent.putExtra(Utils.RECEIVER_TAG, mReceiver);
+
+			startService(intent);
+			progress.show();
+
+		}
+	}
 }

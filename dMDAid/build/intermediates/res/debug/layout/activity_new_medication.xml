@@ -149,4 +149,4 @@
         android:layout_alignLeft="@+id/spinner1"
         android:text="Times Per" />
 
-</RelativeLayout><!-- From: file:/Users/denzil/AndroidStudioProjects/DmdTrial/dMDAid/src/main/res/layout/activity_new_medication.xml -->
+</RelativeLayout><!-- From: file:/W:/Projects/Android/DMDtrial/DmdTrial/dMDAid/src/main/res/layout/activity_new_medication.xml -->

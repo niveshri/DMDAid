@@ -12,7 +12,8 @@
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
     </ListView>
 
-</RelativeLayout><!-- From: file:/Users/denzil/AndroidStudioProjects/DmdTrial/dMDAid/src/main/res/layout/activity_main.xml -->
+</RelativeLayout><!-- From: file:/W:/Projects/Android/DMDtrial/DmdTrial/dMDAid/src/main/res/layout/activity_main.xml -->

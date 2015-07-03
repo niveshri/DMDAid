@@ -3,9 +3,9 @@
 
     xmlns:tools="http://schemas.android.com/tools"
 
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
 
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     
 
     tools:context=".MainActivity" >
@@ -70,7 +70,19 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true" />
 
- 
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:outlineProvider="bounds"
+        android:background="#fffffbfb"
+        android:src="@drawable/add_image"
+        android:visibility="visible"
+        android:layout_alignBottom="@+id/textView"
+        android:onClick="DisplayContacts"/>
+
 
 </RelativeLayout>
 

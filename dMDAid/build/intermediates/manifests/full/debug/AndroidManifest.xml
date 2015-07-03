@@ -357,7 +357,8 @@
             <intent-filter>
                 <action android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION" />
             </intent-filter>
-        </receiver> <!-- Activities -->
+        </receiver>
+ <!-- Activities -->
         <activity
             android:name="com.aware.Aware_Preferences"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -446,7 +447,8 @@
             android:noHistory="true"
             android:showOnLockScreen="true"
             android:theme="@android:style/Theme.DeviceDefault.Dialog" >
-        </activity> <!-- Services -->
+        </activity>
+ <!-- Services -->
         <service
             android:name="com.aware.utils.WearClient"
             android:enabled="@bool/display_aware"
@@ -612,7 +614,8 @@
         <service
             android:name="com.aware.Aware$UpdatePlugins"
             android:enabled="@bool/display_aware"
-            android:exported="true" /> <!-- Receivers -->
+            android:exported="true" />
+ <!-- Receivers -->
         <receiver
             android:name="com.aware.utils.WearClient$AndroidWearHTTPClient"
             android:enabled="@bool/display_aware"
