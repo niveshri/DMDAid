@@ -1,21 +1,19 @@
 package com.example.dmdaid;
 import android.app.Activity;
 import android.content.ContentResolver;
-import android.content.Intent;
 import android.database.Cursor;
-import android.location.GpsStatus;
 import android.net.Uri;
-import android.net.sip.SipSession;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
  
 
 public class Addcontact extends Activity {
+
+    public TextView outputText;
+
+ 
 
     @Override
 
@@ -25,5 +23,8 @@ public class Addcontact extends Activity {
 
         setContentView(R.layout.activity_contact);
 
+        outputText = (TextView) findViewById(R.id.textView1);
+
+       
     }
 }
