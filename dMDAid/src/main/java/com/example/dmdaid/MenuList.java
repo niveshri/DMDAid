@@ -57,7 +57,8 @@ public class MenuList extends Activity implements Receiver{
 //	   public void onClick(View view) {
 //           displayNotification();
 //        }
-	   
+
+	   @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 	   protected void displayNotification() {
 		      Log.i("Start", "notification");
 
@@ -105,6 +106,7 @@ public class MenuList extends Activity implements Receiver{
 		   }
 
 		  
+		   @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 		   protected void updateNotification() {
 		      Log.i("Update", "notification");
 
@@ -332,7 +334,7 @@ public class MenuList extends Activity implements Receiver{
 		}
 	}
 
-	@TargetApi(Build.VERSION_CODES.HONEYCOMB_MR1)
+	@TargetApi(Build.VERSION_CODES.LOLLIPOP)
 	@Override
 	public void onReceiveResult(int resultCode, Bundle resultData) {
 		if(resultCode == 200) {

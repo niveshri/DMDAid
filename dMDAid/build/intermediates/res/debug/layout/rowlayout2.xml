@@ -45,4 +45,4 @@
         android:layout_toRightOf="@+id/title"
         android:text="TextView" />
 
-</RelativeLayout><!-- From: file:/Users/denzil/AndroidStudioProjects/DmdTrial/dMDAid/src/main/res/layout/rowlayout2.xml -->
+</RelativeLayout><!-- From: file:/W:/Projects/Android/DMDAid/DmdTrial/dMDAid/src/main/res/layout/rowlayout2.xml -->

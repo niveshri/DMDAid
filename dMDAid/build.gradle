@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.dmdaid"
-        minSdkVersion 10
+        minSdkVersion 11
         targetSdkVersion 22
     }
 
